@@ -14,7 +14,7 @@ import java.util.Map;
 @Service
 public class OpenRouterAccessor {
 
-    private String openRouterApiKey = "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";
+    private String openRouterApiKey = "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";
 
     public String callOpenRouter(String input) throws Exception {
         RestTemplate restTemplate = new RestTemplate();
